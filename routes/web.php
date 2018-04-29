@@ -12,5 +12,13 @@
 */
 
 Route::get('/', function () {
-    return view('welcome');
+  return view('contact');
 });
+
+Route::post('/confirmcontact', 'ContactController@confirm');
+
+Route::get('/showcontact', function(){
+  return view('contactConfirm');
+});
+
+Route::get('/showcontactdetails', 'ContactController@show');

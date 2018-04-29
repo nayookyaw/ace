@@ -1,0 +1,21 @@
+h1{
+  background-color: green;
+  color:white;
+  text-align: center;
+  padding: 10px;
+}
+h4{
+  background-color: #05159A;
+  color: white;
+  padding: 10px;
+  width: 160px;
+}
+table tr td {
+  padding: 10px;
+}
+.err_firstname, .err_lastname, .err_subject, .err_message, .err_phone, .err_email, .err_age {
+  color: red;
+}
+.thank{
+  text-align: center;
+}
